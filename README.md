@@ -1,5 +1,5 @@
 # BasicJavascriptQuizApplication
 <br />
 201-04-24 <br />
-初步实现功能
-<images href="images.gif"></img>
+初步实现功能<br />
+![Alt text](https://github.com/1393925530/BasicJavascriptQuizApplication/blob/master/images/1.gif)
