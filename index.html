@@ -65,6 +65,7 @@ $(document).ready(function() {
         } else {
             currentquestion++;  //done值不为true，当前问题值加一
             if(currentquestion < allQuestions.length) {  //只要当前问题值小于所有问题的个数则进行引入到当前页面操作
+                $('#question').html(allQuestions[currentquestion].question);
                 $('label[for=option0]').html(allQuestions[currentquestion].choices[0] + '<br />');
                 $('label[for=option1]').html(allQuestions[currentquestion].choices[1] + '<br />');
                 $('label[for=option2]').html(allQuestions[currentquestion].choices[2] + '<br />');
